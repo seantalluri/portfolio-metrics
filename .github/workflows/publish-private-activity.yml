@@ -1,0 +1,39 @@
+name: Publish private activity metrics
+
+on:
+  workflow_call:
+    inputs:
+      slug:
+        description: Public metrics slug
+        required: true
+        type: string
+      label:
+        description: Public display label
+        required: true
+        type: string
+    secrets:
+      publish_token:
+        description: Fine-grained token with Contents read/write on seantalluri/portfolio-metrics only
+        required: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: read
+    steps:
+      - name: Download public publisher
+        run: |
+          curl --fail --silent --show-error --location \
+            https://raw.githubusercontent.com/seantalluri/portfolio-metrics/main/scripts/publish_metrics.py \
+            --output /tmp/publish_metrics.py
+
+      - name: Publish aggregate-only metrics
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PORTFOLIO_PUBLISH_TOKEN: ${{ secrets.publish_token }}
+          PORTFOLIO_METRICS_REPO: seantalluri/portfolio-metrics
+          PORTFOLIO_SLUG: ${{ inputs.slug }}
+          PORTFOLIO_LABEL: ${{ inputs.label }}
+        run: python /tmp/publish_metrics.py
