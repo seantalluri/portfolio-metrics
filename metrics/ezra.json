@@ -1,14 +1,14 @@
 {
   "label": "Ezra",
   "last_30_days": {
-    "commits": 54,
-    "pull_requests": 26
+    "commits": 49,
+    "pull_requests": 11
   },
   "lifetime": {
-    "commits": 135,
+    "commits": 136,
     "pull_requests": 31
   },
-  "updated_at": "2026-08-21T21:44:44.807104Z",
+  "updated_at": "2026-08-23T12:55:53.255597Z",
   "visibility": "private",
   "window_days": 30
 }
