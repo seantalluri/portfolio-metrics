@@ -1,14 +1,14 @@
 {
   "label": "pm.gold",
   "last_30_days": {
-    "commits": 20,
+    "commits": 17,
     "pull_requests": 1
   },
   "lifetime": {
     "commits": 404,
     "pull_requests": 1
   },
-  "updated_at": "2026-08-31T13:05:58.227493Z",
+  "updated_at": "2026-09-07T11:57:53.019270Z",
   "visibility": "private",
   "window_days": 30
 }
