@@ -1,14 +1,14 @@
 {
   "label": "Christ Everywhere",
   "last_30_days": {
-    "commits": 507,
-    "pull_requests": 4
+    "commits": 407,
+    "pull_requests": 23
   },
   "lifetime": {
-    "commits": 780,
-    "pull_requests": 123
+    "commits": 820,
+    "pull_requests": 142
   },
-  "updated_at": "2026-09-07T12:56:33.127792Z",
+  "updated_at": "2026-09-14T13:12:51.693976Z",
   "visibility": "private",
   "window_days": 30
 }
