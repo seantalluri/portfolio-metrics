@@ -1,14 +1,14 @@
 {
   "label": "CE Control Plane",
   "last_30_days": {
-    "commits": 6,
-    "pull_requests": 2
+    "commits": 5,
+    "pull_requests": 1
   },
   "lifetime": {
     "commits": 74,
     "pull_requests": 27
   },
-  "updated_at": "2026-09-14T12:36:52.597453Z",
+  "updated_at": "2026-09-21T12:41:37.660724Z",
   "visibility": "private",
   "window_days": 30
 }
