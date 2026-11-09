@@ -1,14 +1,14 @@
 {
   "label": "Koinonia",
   "last_30_days": {
-    "commits": 6,
-    "pull_requests": 6
+    "commits": 0,
+    "pull_requests": 0
   },
   "lifetime": {
     "commits": 196,
     "pull_requests": 75
   },
-  "updated_at": "2026-11-02T06:39:57.475804Z",
+  "updated_at": "2026-11-09T06:41:00.569703Z",
   "visibility": "private",
   "window_days": 30
 }
